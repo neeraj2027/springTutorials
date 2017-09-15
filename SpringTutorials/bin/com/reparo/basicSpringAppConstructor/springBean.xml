@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="emp2" class="com.reparo.basicSpringApp.Employee">
+		<constructor-arg value="12"/>
+		<constructor-arg value="AMIT"/>
+		<constructor-arg value="Indore"/>
+	</bean>
+	
+	<bean id="emp3" class="com.reparo.basicSpringApp.Employee">
+		<constructor-arg value="13"/>
+		<constructor-arg value="Vikrant"/>
+		<constructor-arg value="Indore"/>
+	</bean>
+	
+	<bean id="emp4" class="com.reparo.basicSpringApp.Employee">
+		<constructor-arg value="14"/>
+		<constructor-arg value="Rishu"/>
+		<constructor-arg value="Indore"/>
+	</bean>
+
+</beans>

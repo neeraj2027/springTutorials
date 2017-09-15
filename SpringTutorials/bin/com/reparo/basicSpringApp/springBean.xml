@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="emp2" class="com.reparo.basicSpringApp.Employee">
+		<property name="eid" value="12"/>
+		<property name="ename" value="AMIT"/>
+		<property name="eaddress" value="Indore"/>
+	</bean>
+	
+	<bean id="emp3" class="com.reparo.basicSpringApp.Employee">
+		<property name="eid" value="13"/>
+		<property name="ename" value="Vikrant"/>
+		<property name="eaddress" value="Indore"/>
+	</bean>
+	
+	<bean id="emp4" class="com.reparo.basicSpringApp.Employee">
+		<property name="eid" value="14"/>
+		<property name="ename" value="Rishu"/>
+		<property name="eaddress" value="Indore"/>
+	</bean>
+
+</beans>
