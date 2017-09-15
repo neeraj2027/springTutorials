@@ -19,7 +19,7 @@ public class Circle implements Shape {
 	}
 
 /*	@Required
-	public void setCenter(Point center) {
+	public void setCenter(Point center) {//
 		this.center = center;
 	}*/
 
