@@ -11,6 +11,7 @@ public class AOPMain {
 
 		ApplicationContext context = new ClassPathXmlApplicationContext("com\\reparo\\springAOP\\service\\spring.xml");
 		ShapeService service = context.getBean("shapeService",ShapeService.class);
+		service.getCircle().setName("gggg");
 		System.out.println(service.getCircle().getName());
 	}
 
